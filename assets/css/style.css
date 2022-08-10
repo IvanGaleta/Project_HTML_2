@@ -1,3 +1,8 @@
+h1 {
+font-size: 30px;
+font-style: bold;
+color: chocolate;
+}
 header{   
     background-image: url(../img/beachshowcase.jpg);    
     background-size: cover;
@@ -6,8 +11,58 @@ header{
     justify-content: center;    
     align-items: center;
     text-align: center;   
+    font-size: 16px;
 } 
-.header{
+.header-h {
     display: inline-block;
-    margin-top: 30vh;
+    margin-top: 30vh; 
+    padding: 5px;   
+}
+.header-p{
+    padding: 7px;
+    color: chocolate;
+}
+button{
+    padding: 5px;
+    color: chocolate;
+    border-radius: 5px;
+    border-color: chocolate;
+}
+button:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+.section_1{
+    background-color:  chocolate;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.section_2{
+    padding: 20px;
+    text-align: center;
+}
+.section_3{
+
+}
+.box-1{   
+    padding: 10px;
+    max-width: 30%;    
+    background-color:  chocolate;
+    color: white;
+    display: inline-block;
+}
+.box-2{   
+    padding: 10px;
+    max-width: 30%;    
+    display: inline-block;    
+}
+.box-3{   
+    padding: 10px;
+    max-width: 30%;    
+    background-color:  chocolate;
+    color: white;
+    float: right;
+    display: inline-block;
 }
